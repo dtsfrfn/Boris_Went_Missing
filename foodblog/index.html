@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="food/logo.png">
+    <title>Boris's Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* White background */
+            margin: 0;
+            padding: 150px; /* Increased padding */
+        }
+        h1 {
+            font-size: 3em; /* Dramatically increased header size */
+            color: #333;
+            text-align: center;
+        }
+        .nav {
+            background-color: #f9f9f9;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .nav a {
+            margin: 0 25px;
+            text-decoration: none;
+            color: #333;
+            font-size: 1em; /* Reduced nav font size */
+        }
+        .nav a:hover {
+            color: #007BFF; /* Change to a primary color */
+            text-decoration: underline;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 80px; /* Increased margin */
+        }
+        .image-item {
+            margin: 0 20px; /* Further reduced spacing between images */
+            text-align: center; /* Center the text below images */
+            border: 2px solid lightgrey; /* Light grey border */
+            border-radius: 10px; /* Optional: rounded corners */
+            padding: 10px; /* Further reduced padding inside the border */
+            background-color: #f9f9f9; /* Optional: light background for each item */
+        }
+        .image-container img {
+            max-width: 400px; /* Set max width to fit within the border */
+            height: auto; /* Maintain aspect ratio */
+            cursor: pointer;
+            user-select: none; /* Prevent text selection */
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+        .challenge-text {
+            font-size: 3em; /* Reduced font size */
+            color: #333;
+        }
+        .card-body {
+            margin-top: 20px; /* Further reduced margin */
+            text-align: left; /* Align text to the left */
+            max-width: 1200px; /* Increased width limit for better readability */
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid lightgrey; /* Light grey border for the entire card */
+            border-radius: 10px; /* Optional: rounded corners */
+            padding: 10px; /* Further reduced padding inside the border */
+            background-color: #f9f9f9; /* Optional: light background for the card */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .card-title {
+            font-size: 6em; /* Dramatically increased title size */
+            margin-bottom: 50px; /* Increased bottom margin */
+        }
+        .card-text {
+            font-size: 1.5em; /* Reduced font size for description */
+            color: #555;
+            line-height: 1.5;
+            letter-spacing: 0.5px;
+        }
+        footer {
+            margin-top: 60px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            color: #333;
+            font-size: 1em; /* Reduced footer font size */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+    </div>
+    <h1>Boris's Blog</h1>
+    <div class="card-body"> <!-- Combined border for the challenge -->
+        <div class="image-item">
+            <a href="not-eelaborate.html">
+                <div class="challenge-text">Not Eelaborate</div>
+            </a>
+        </div>
+        <p class="card-text">After my long train ride, I visited a deer park and got to feed the wildlife. There were so many restaurants to choose from but I was craving eel. I...</p>
+    </div>
+    
+    <div class="card-body"> <!-- Combined border for the challenge -->
+        <div class="image-item">
+            <a href="latergram.html">
+                <div class="challenge-text">Special Place...</div>
+            </a>
+        </div>
+        <p class="card-text">Hi all it's Boris, I really love the restaurant I shared with you guys last time. This time, I am heading to a special place, hope to...</p>
+    </div>
+
+    <div class="card-body"> <!-- Combined border for the challenge -->
+        <div class="image-item">
+            <a href="late-night.html">
+                <div class="challenge-text">Late Night Bite</div>
+            </a>
+        </div>
+        <p class="card-text">Some nights, I enjoy walking out to this modern local izakaya restaurant. They close pretty late, which makes it perfect for a late night snack...</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Boris's Food Adventure. All rights reserved.</p>
+    </footer>
+</body>
+</html>
